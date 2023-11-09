@@ -1,0 +1,51 @@
+.top{
+    background-color: #2A1503;
+    padding: 5px;
+    margin: 5px;
+}
+.Head{
+    color:aliceblue;
+    text-align: center;
+}
+.box{
+    background-color: #e3e9aa;
+    padding: 20px;
+    margin: 20px;
+}
+
+.form{
+    background-color: #e3e9aa;
+    padding: 10px;
+    margin: 10px;
+}
+.form1{
+    background-color: #e3e9aa;
+    padding: 5px;
+    margin: 5px;
+}
+.Myname{
+    color: #2A1503;
+    text-align: center;
+}
+
+h1.Myname:hover{
+    color:blue;
+    text-align: center;
+}
+
+#list{
+    color:#2A1503;
+}
+
+.middle{
+    background-color: #2A1503;
+    padding: 10px;
+    width: 25%;
+}
+
+.dog{
+    width: 100%;
+}
+.Dog1{
+    color: #e3e9aa;
+}
