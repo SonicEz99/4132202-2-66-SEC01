@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello worln</title>
-    
-</head>
-<body>
 
-    <a href="condb.php">condb</a>
-    <a href="info.php">info</a>
-    
+    <script src="
+    https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
+    "></script>
+</head>
+
+<body>
+    <div id = "div_item"></div>
+
+
 </body>
+
 </html>
+
+<script>
+    $(function(){
+        $("#div_item").load("/list_items.php");
+    });
+</script>
