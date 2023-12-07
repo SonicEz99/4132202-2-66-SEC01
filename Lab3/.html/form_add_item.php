@@ -1,12 +1,13 @@
 <form>
-    <label for="input_id">ID : </label>
+    <label for="input_id">ID </label><br>
     <input type="text" name="id" id="input_id"><br>
-    <label for="input_name">NAME : </label>
+    <label for="input_name">NAME</label><br>
     <input type="text" name="name" id="input_name"><br>
-    <label for="input_pro">PROVINCE : </label>
+    <label for="input_pro">PROVINCE</label><br>
     <input type="text" name="pro" id="input_pro"><br>
-    <button type="submit">=> SAVE <=</button>
-    <button type="reset">=> CANCEL <=</button>
+    <hr>
+    <button type="submit" class="btn btn-primary" >=> SAVE <=</button>
+    <button type="reset" class="btn btn-danger" >=> CANCEL <=</button>
 </form>
 
 <script>
@@ -21,9 +22,9 @@
                 if(res == "error"){
                     alert("Don't insert data to DB");
                 }else{
-                    $("#div_item").load("/list_items.php")
+                    $("#div_1").load("/list_items.php");
+                    $('#staticBackdropLabel').modal('hide');
                 }
-                
             }
         });
     });
