@@ -7,7 +7,10 @@ obj = { name: "NATTAKAN", age: 30, tel: "123456789" };
 
 data = { address: ["69", "jira", "Buriram", 31110], name: "NEEM" };
 
-console.log(FRIUT[1]);
+var x = 1;
+y = 5;
+
+console.log(FRIUT[3]);
 console.log(obj.name);
 console.log(data.address[2]);
 
@@ -15,8 +18,12 @@ document.getElementById("smg").innerHTML = FRIUT[1];
 
 let longTxt = data.name + " : " + FRIUT[0];
 
-longTxt = `${data.name} :
-                ${data.address[2]}`;
+longTxt = `is ${y} = ${x} My name is ${obj.name}`;
+
 $(function () {
     $("#smg").html(longTxt);
 });//jquery ready
+
+$(function () {
+    $(".smg1").html(data.address[1]);
+});

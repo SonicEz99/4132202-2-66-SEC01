@@ -1,25 +1,26 @@
 .top{
-    background-color: #2A1503;
+    background-color: #35d929;
     padding: 50px;
     margin: 5px;
+    margin-bottom:50px;
 }
 .Head{
     color:aliceblue;
     text-align: center;
 }
 .box{
-    background-color: #e3e9aa;
+    background-color: #2e15ec;
     padding: 20px;
     margin: 20px;
 }
 
 .form{
-    background-color: #e3e9aa;
+    background-color: #e52a2a;
     padding: 10px;
     margin: 10px;
 }
 .form1{
-    background-color: #e3e9aa;
+    background-color: #b4aae9;
     padding: 5px;
     margin: 5px;
 }
@@ -49,3 +50,7 @@ h1.Myname:hover{
 .Dog1{
     color: #e3e9aa;
 }
+
+table, th, td {
+    border:1px solid black;
+  }
