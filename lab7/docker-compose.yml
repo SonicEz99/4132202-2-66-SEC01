@@ -6,8 +6,8 @@ services:
       - 21:21
       - 30000-30009:30000-30009
     volumes:
-      - ./data:/home/ftp
-      - ./passwd:/etc/pure-ftpd/passwd
+      - "./data:/home/ftp"
+      - "./passwd:/etc/pure-ftpd/passwd"
     environment:
       - FTP_USER_NAME=ftp
       - FTP_USER_PASS=1234
